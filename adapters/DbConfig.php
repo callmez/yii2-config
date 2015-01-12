@@ -9,7 +9,7 @@ use yii\base\InvalidConfigException;
 use callmez\config\BaseConfig;
 
 /**
- * DbConfig represents an authorization manager that stores authorization information in database.
+ * DbConfig represents an config that stores config information in database.
  * @package app\components
  */
 class DbConfig extends BaseConfig
