@@ -80,7 +80,7 @@ class DbConfig extends BaseConfig
             if (!empty($newData)) {
                 $this->db->createCommand()
                     ->batchInsert($this->configTable, ['name', 'value'], $newData)
-                    ->excute();
+                    ->execute();
             }
             if (!empty($updatedData)) {
                 foreach($updatedData as $name => $value) {
