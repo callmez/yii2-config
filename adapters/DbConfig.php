@@ -85,7 +85,7 @@ class DbConfig extends BaseConfig
             if (!empty($updatedData)) {
                 foreach($updatedData as $name => $value) {
                     $this->db->createCommand()
-                        ->update($this->configTable, ['value' => $value[1]], ['name' => $value])
+                        ->update($this->configTable, ['value' => $value[1]], ['name' => $name])
                         ->execute();
                 }
             }
