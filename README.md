@@ -42,7 +42,7 @@ After that change your main configuration file ```config/web.php```
     'components' => [
         ...
         'config' => [
-            'class' => 'callmez\config\adapters\DbConfig',
+            'class' => 'weyii\config\adapters\DbConfig',
         ],
         ...
     ],
