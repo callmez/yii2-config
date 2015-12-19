@@ -11,13 +11,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-componser require --prefer-dist callmez/yii2-config "*"
+componser require --prefer-dist weyii/yii2-config "*"
 ```
 
 or add
 
 ```
-"callmez/yii2-config": "*"
+"weyii/yii2-config": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -31,7 +31,7 @@ composer update
 run
 
 ```
-yii migrate --migrationPath=@vendor/callmez/yii2-config/migrations
+yii migrate --migrationPath=@vendor/weyii/yii2-config/migrations
 ```
 
 After that change your main configuration file ```config/web.php```
